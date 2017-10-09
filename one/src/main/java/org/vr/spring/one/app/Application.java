@@ -11,6 +11,7 @@ public class Application {
 		ApplicationContext context = new ClassPathXmlApplicationContext("Spring.xml");
 		MessagePrinter printer = (MessagePrinter) context.getBean("messagePrinter");
 		System.out.println(printer.getMessage());
+		System.out.println(printer.getMessageHelper());
 
 		/*MessageHelper messageHelper = (MessageHelper) context.getBean("messageHelper");
 		System.out.println(messageHelper.getString());

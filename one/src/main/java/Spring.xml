@@ -15,7 +15,7 @@
 	
 	<!-- <bean id="messagePrinter" class="org.vr.spring.one.service.impl.MessagePrinter"/> --> 
 	<bean id="messageHelper" class="org.vr.spring.one.service.impl.MessageHelper">
-		<property name="string" value="Hey I am String Helper..."/>
+		<!-- <property name="string" value="Hey I am String Helper..."/> -->
 		<constructor-arg value="Hey I am String Helper from COSTRUCTOR..." />
 	</bean>
 	
